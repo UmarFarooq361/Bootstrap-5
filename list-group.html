@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Group in Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container ">
+        <ul class="list-group">
+            <li class="list-group-item">one</li>
+            <li class="list-group-item active">two</li>
+            <li class="list-group-item list-group-item-action">three</li>
+            <li class="list-group-item list-group-item-action disabled">four</li>
+            <li class="list-group-item list-group-item-action">five</li>
+
+        </ul >
+
+        <div class="list-group mt-5">
+            <a href="#" class="list-group-item list-group-item-action">1</a>
+            <a href="#" class="list-group-item list-group-item-action">2</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">3</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-info">4</a>
+
+        </div>
+
+        <div class="list-group mt-5">
+            <button class="list-group-item list-group-item-action" type="button">list item 1</button>
+            <button class="list-group-item list-group-item-action" type="button">list item 2</button>
+            <button class="list-group-item list-group-item-action" type="button">list item 3</button>
+
+        </div>
+
+        <ul class="list-group mt-5 list-group-flush">
+            <li class="list-group-item">one</li>
+            <li class="list-group-item ">two</li>
+            <li class="list-group-item list-group-item-action">three</li>
+            <li class="list-group-item list-group-item-action ">four</li>
+            <li class="list-group-item list-group-item-action">five</li>
+
+        </ul >
+
+        <ul class="list-group mt-5 list-group-numbered">
+            <li class="list-group-item">one</li>
+            <li class="list-group-item ">two</li>
+            <li class="list-group-item list-group-item-action">three</li>
+            <li class="list-group-item list-group-item-action ">four</li>
+            <li class="list-group-item list-group-item-action">five</li>
+
+        </ul >
+
+        <div class="list-group mt-5">
+            <a href="#" class="w-50 list-group-item list-group-item-action">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4>heading</h4>
+                    <p class="small text-muted">3 days ago</p>
+                </div>
+                <p>some random text is here</p>
+                <small cla="text-muted">anithe liner texo </small>
+            </a>
+            <a href="#" class="w-50 list-group-item list-group-item-action list-group-item-info ">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4>heading</h4>
+                    <p class="small text-muted">3 days ago</p>
+                </div>
+                <p>some random text is here</p>
+                <small cla="text-muted">anithe liner texo </small>
+            </a>
+
+        </div>
+        <ul class="list-group mt-5 ">
+            <li class="list-group-item">
+                <div class="d-flex justify-content-between aligns-item-center">
+                    soneo gtio
+                    <span class="badge bg-primary rounded-pill">15</span>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="d-flex justify-content-between aligns-item-center">
+                    soneo gtio paso
+                    <span class="badge bg-primary rounded-pill">15</span>
+                </div>
+            </li>
+        </ul >
+
+        <ol class="list-group list-group-numbered mt-5">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                C justo odio
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Cras justo odio
+            </div>
+            <span class="badge bg-primary rounded-pill">39</span>
+        </li>
+        </ol>
+    </div>
+</body>
+</html>
